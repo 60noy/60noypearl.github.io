@@ -1,0 +1,39 @@
+body{
+					font-family: 'Roboto', sans-serif;
+					text-align: center;
+			}
+p{
+	font-size: 2em;
+	padding-bottom: 2%;
+}
+
+.container{
+	padding-top: 5%;
+}
+.flex, .bottom{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	font-size: 1.8em;
+	padding-top: 3%;
+}
+
+#status{
+	font-size: 1.5em;
+	padding-bottom: 1%;
+	padding-top: 2%;
+	/*z-index: 1;*/
+
+}
+.percentage{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.mdl-button{
+	margin-left: 2%;
+}
